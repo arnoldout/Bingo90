@@ -43,6 +43,8 @@ All of the outlined variations sum up to the required column length.
 | 9 | { 1, 2, 2, 2, 1, 1 }, { 3, 1, 1, 1, 1, 2 } |
 | 10 | { 2, 2, 2, 2, 1, 1 }, { 3, 3, 1, 1, 1, 1 }, { 3, 2, 2, 1, 1, 1 } |
 | 11 | { 3, 3, 2, 1, 1, 1 }, { 2, 2, 2, 2, 2, 1 } |
+
+
 To add even further variation, I randomly select a variation from the list, and then shuffle that variation itself to have a huge amount of possible variations per strip column. 
 
 ## Linked List
