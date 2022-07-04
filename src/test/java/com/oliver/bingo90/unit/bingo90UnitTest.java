@@ -140,21 +140,22 @@ public class bingo90UnitTest {
 
         @Test
         public void testCreationOf10000FullStrips() {
-                List<String> allTickets = new ArrayList<>();
+                List<String> allStrips = new ArrayList<>();
                 for (int stripCounter = 0; stripCounter < 10000; stripCounter++) {
                         List<int[]> tickets = TicketService.getInstance().generateTicket();
+                        allStrips.add("-----New ticket strip "+(stripCounter+1)+"-----");
                         for (int l = 0; l < 6; l++) {
                                 StringBuilder sb = new StringBuilder();
                                 for (int i = 0; i < 9; i++) {
                                         sb.append(Arrays.toString(tickets.get(l + (i * 6))));
                                 }
-                                allTickets.add(sb.toString());
+                                allStrips.add(sb.toString());
                         }
                         // assertTrue(allTickets.size() == 6);
 
                 }
                 try {
-                        FileService.getInstance().saveTextToFile(allTickets);
+                        FileService.getInstance().saveTextToFile(allStrips);
                 } catch (IOException e) {
                         //Should not throw exception
                         //there may be a problem writing to a file
