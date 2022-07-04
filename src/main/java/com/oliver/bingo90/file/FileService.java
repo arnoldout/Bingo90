@@ -1,4 +1,4 @@
-package com.oliver.bingo90;
+package com.oliver.bingo90.file;
 
 import java.io.FileWriter;
 import java.io.IOException;

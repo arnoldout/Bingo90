@@ -1,8 +1,10 @@
-package com.oliver.bingo90;
+package com.oliver.bingo90.ticket;
+
+import com.oliver.bingo90.list.LinkedList;
+import com.oliver.bingo90.list.LinkedListNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 

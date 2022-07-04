@@ -1,5 +1,8 @@
 package com.oliver.bingo90;
 
+import com.oliver.bingo90.file.FileService;
+import com.oliver.bingo90.ticket.TicketService;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;

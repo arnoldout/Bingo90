@@ -1,9 +1,9 @@
 package com.oliver.bingo90.unit;
 
-import com.oliver.bingo90.FileService;
-import com.oliver.bingo90.LinkedList;
-import com.oliver.bingo90.LinkedListNode;
-import com.oliver.bingo90.TicketService;
+import com.oliver.bingo90.file.FileService;
+import com.oliver.bingo90.list.LinkedList;
+import com.oliver.bingo90.list.LinkedListNode;
+import com.oliver.bingo90.ticket.TicketService;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

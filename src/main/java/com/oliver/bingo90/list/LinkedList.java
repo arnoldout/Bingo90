@@ -1,6 +1,4 @@
-package com.oliver.bingo90;
-
-import sun.awt.image.ImageWatched;
+package com.oliver.bingo90.list;
 
 public class LinkedList {
         private int size = 1;

@@ -1,4 +1,4 @@
-package com.oliver.bingo90;
+package com.oliver.bingo90.list;
 
 public class LinkedListNode {
         private LinkedListNode next;
